@@ -12,7 +12,7 @@ const App = (props) =>{
 
     useEffect(() =>{
         if(localStorage.getItem('token')){
-            handleAuth()
+            setUserLoggedIn(true)
         }
     }, [])
 
