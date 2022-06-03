@@ -18,7 +18,6 @@ const App = (props) =>{
 
     return (
         <div className='container'>
-            <h2> User Authentication </h2>
             <Navigate userLoggedIn={userLoggedIn} handleAuth={handleAuth} />    
         </div>
     )
